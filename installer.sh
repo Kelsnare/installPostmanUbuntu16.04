@@ -1,6 +1,6 @@
-wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
+sudo wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
 sudo tar -xzf postman.tar.gz -C /opt
-rm postman.tar.gz
+sudo rm -f postman.tar.gz
 echo "\n*******************\nInstalling Binary\n********************\n"
 sudo ln -s "/opt/Postman/Postman" "/usr/bin/postman"
 echo "\n*******************\nCreating Desktop App\n**********************\n"
